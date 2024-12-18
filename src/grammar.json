@@ -3458,10 +3458,6 @@
                 },
                 {
                   "type": "STRING",
-                  "value": "-"
-                },
-                {
-                  "type": "STRING",
                   "value": "."
                 },
                 {
@@ -4080,7 +4076,7 @@
         },
         {
           "type": "PREC",
-          "value": 110,
+          "value": 1,
           "content": {
             "type": "SEQ",
             "members": [
@@ -4373,7 +4369,7 @@
     },
     "task_list_marker_pending": {
       "type": "PREC",
-      "value": 11,
+      "value": 1,
       "content": {
         "type": "PATTERN",
         "value": "\\[[-]\\]"
