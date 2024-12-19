@@ -403,7 +403,7 @@ module.exports = grammar({
 
         ...(common.EXTENSION_TASK_LIST ? {
             task_list_marker_checked: $ => prec(1, /\[[xX]\]/),
-            task_list_marker_pending: $ => prec(11, /\[[-]\]/),
+            task_list_marker_pending: $ => prec(1, /\[[-]\]/),
             task_list_marker_unchecked: $ => prec(1, /\[[ \t]\]/),
         } : {}),
 
